@@ -1,0 +1,10 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
+    <style>
+        .footer{
+            height:50px; background-color:blue; text-align:center; color:white; line-height:50px;
+            }
+    </style>
+    <div class="footer">
+        jspf를 이용한 include : footer.jspf, <%=logo%>,<%=addr%>
+    </div>

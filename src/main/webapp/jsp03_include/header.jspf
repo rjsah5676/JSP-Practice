@@ -1,0 +1,15 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%
+    String logo = "ICT 인재개발원";
+    String addr = "서울시 성동구 아차선로113";
+%>
+
+    <style>
+        .top{
+            height:50px; background-color: red; color: white; text-align:center; line-height:50px;
+        }
+    </style>
+
+    <div class="top">
+        jspf 조각파일을 이용한 include : header.jspf
+    </div>
