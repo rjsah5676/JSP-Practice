@@ -10,5 +10,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
+    <div class="container">
+        <div style="background-color:gray; color:blue;">
+            세션에 있는 이름 : <%=session.getAttribute("username")%>
+        </div>
+    </div>
 </body>
 </html>

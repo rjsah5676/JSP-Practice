@@ -40,4 +40,16 @@
 <div>
 <a href="<%=request.getContextPath()%>/jsp05_session/sessionSave.jsp">세션 값 저장</a>
 </div>
+<div>
+<a href="<%=request.getContextPath()%>/jsp06_jstl/jstlHome.jsp">JSTL</a>
+</div>
+<% if(session.getAttribute("logStatus")==null|| !session.getAttribute("logStatus").equals("y")) { %>
+<div>
+<a href="<%=request.getContextPath()%>/member/login.jsp">로그인</a>
+</div>
+<% } else { %>
+<div>
+<%=session.getAttribute("username")%>님 <a href="#">로그아웃</a>
+</div>
+<% } %>
 </div>
